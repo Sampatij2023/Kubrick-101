@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/k.js"></script>
+</head>
+
+<body class="menu">
+  <div style="background-image: url('images/7.jpg');">
+    <div class="topnav">
+      <a  href="index.html"">Home</a>
+    <a href="contact.html">Contact</a>
+      <a class="active" href="about.html">About</a>
+    </div>
+
+    <div style="padding-left:16px">
+
+    </div>
+</div>
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+
+  height:700px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<body>
+    <div style="background-image: url('images/6.jpg');">
+
+<h2>Our Team</h2>
+<table>
+  <tr>
+    <td><div class="container">
+  <img src="images/14.jpg" alt="Avatar" class="image"width= "250%">
+  <div class="overlay">
+    <div class="text">Deepak Suthar<br><br>Founder and CEO</div>
+  </div></td><td width="300">
+  <div class="container">
+    <img src="images/15.jpeg" alt="Avatar" class="image"width= "500%">
+    <div class="overlay">
+      <div class="text">Nameer Khan<br><br>Co-Founder Creative Head</div>
+    </div></td>
+    <td >
+    <div class="container">
+      <img src="images/16.jpeg" alt="Avatar" class="image"width= "200%">
+      <div class="overlay">
+        <div class="text">Anirudh Kulkarni<br><br>co-founder and content creator</div>
+      </div></td><td>
+      <div class="container">
+        <img src="images/17.jpeg" alt="Avatar" class="image"width= "400%">
+        <div class="overlay">
+          <div class="text">Rishuraj Singh<br><br>co-founder and content creator</div>
+        </div></td></tr>
+
+</div>
+</body>
+
+</html>
